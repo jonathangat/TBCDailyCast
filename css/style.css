@@ -17,9 +17,6 @@ img {
     padding: 5px;
 }
 
-table {
-    width:500px;
-}
 
 h1  , h3 {
     color: #F3E0BE;
@@ -40,7 +37,7 @@ td {
 
 .content {
     width:100%;
-    height:100%;
+    height:auto;
 }
 
 .child {
