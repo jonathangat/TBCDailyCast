@@ -26,6 +26,14 @@ $(document).ready(function() {
 
         });
 
+        // hide and show elements
+        $('#spinner').css("display","none");
+        $('#show_date').css("display","block");
+        $('#table_scroll').css("display","block");
+
+
+
+
 
 
 
