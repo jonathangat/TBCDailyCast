@@ -4,7 +4,8 @@ body {
 
 
 
-    background: url(https://www.punchdrunk.com/content/uploads/2021/09/PDSiteHeaderHamdark.jpg);
+    /* background: url(https://www.punchdrunk.com/content/uploads/2021/09/PDSiteHeaderHamdark.jpg); */
+    background-color: black;
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: 100%;
