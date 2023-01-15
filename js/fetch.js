@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 
     // fetch data
-    let api_url = "https://script.google.com/macros/s/AKfycbzFUyPTgQ26QvBoLr9awryjHxxkXt_pd3kqRwuyo-VrwPzxwJvHYwaqRrxGO_R63oku5Q/exec";
+    let api_url = "https://script.google.com/macros/s/AKfycbxdJgTg_Rfa82pbyjIUkelfkhqwnYWHIwK03d-M1za2yOWUY08ZstzQELjRDvmdku8X-w/exec";
    $.getJSON(api_url, function(data) {
 
         // populate date header
