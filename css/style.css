@@ -4,8 +4,8 @@ body {
 
 
 
-    /* background: url(https://www.punchdrunk.com/content/uploads/2021/09/PDSiteHeaderHamdark.jpg); */
-    background-color: black;
+    background: url(https://www.punchdrunk.com/content/uploads/2021/09/PDSiteHeaderHamdark.jpg);
+    /* background-color: black; */
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: 100%;
@@ -34,6 +34,7 @@ td {
 #table_scroll {
     width:100%;
     overflow:scroll;
+    overflow-y: hidden;
 }
 
 .content {
