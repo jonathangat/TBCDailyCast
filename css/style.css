@@ -31,10 +31,12 @@ td {
     text-align: center;
 }
 
-#table_scroll {
+.table_scroll {
     width:100%;
     overflow:scroll;
     overflow-y: hidden;
+    display: none;
+    
 }
 
 .content {
@@ -57,8 +59,44 @@ td {
     color: #F3E0BE;
 }
 
-#show_date {display: none;}
-#table_scroll {display: none;}
+
+a.button1{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+    }
+    a.button1:hover{
+    color:#000000;
+    background-color:#FFFFFF;
+    }
+    @media all and (max-width:30em){
+    a.button1{
+    display:block;
+    margin:0.4em auto;
+    }
+
+} 
+
+.btn_span {
+    padding: 1px 8px;
+}
+
+.btn_span::before {
+    content: "\A";
+    white-space: pre;
+}
+
+#btn_back {
+    display:none;
+}
 
 
 
