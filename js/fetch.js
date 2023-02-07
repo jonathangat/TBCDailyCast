@@ -31,7 +31,7 @@ $(document).ready(function() {
                 let performance = data.data[i];
 
                 // add button
-                $('#selection_menu').append(`<span class="btn_span"><a href ="#container_show_${i}" id="btn_show_${i}" class="button1">${performance.performance_date}</a></span>`);
+                $('#selection_menu').append(`<a href ="#container_show_${i}" id="btn_show_${i}" class="button1">${performance.performance_date}</a>`);
 
                 // add headshots container
                 $(`<div id="container_show_${i}" class="table_scroll"><table id="table_show_${i}"></table></div>`).insertBefore('.disclaimer');
@@ -53,7 +53,7 @@ $(document).ready(function() {
 
             }
 
-            $('#selection_menu').append(`<span class="btn_span"><a href ="#" id="btn_back" class="button1">Back</a><br /></span>`);
+            $('#selection_menu').append(`<a href ="#" id="btn_back" class="button1">Back</a><br />`);
 
             // add event listener to back button
             $('#btn_back').click(function () {
