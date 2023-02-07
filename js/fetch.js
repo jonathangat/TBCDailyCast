@@ -1,6 +1,13 @@
 // document ready
 $(document).ready(function() {
 
+    // adjust body dimensions
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+
+
+
 
     // fetch data
     let api_url = "https://script.google.com/macros/s/AKfycbzGUnqdtZm5bZOvMlygWUSH0dD3YANaH4hq8Ol37K97xuI9M3CCsvtsG99Rp2JLGI4k/exec";
