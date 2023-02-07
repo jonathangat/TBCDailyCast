@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0" />
     <!-- FB -->
     <meta property="og:title" content="The Burnt City - Daily Cast List">
     <meta property="og:type" content="website">
@@ -22,18 +22,33 @@
 </head>
 
 <body>
-    <div class="content">
-        <div class="child">
-            <img src="https://www.punchdrunk.com/content/themes/punchdrunk-internacional/build/images/pd-logo.svg" />
-            <h1>The Burnt City - Daily Cast List</h1>
-            <i id="spinner" class="fa fa-spinner fa-spin" style="font-size:48px;color:white"></i>
-            <div class="disclaimer">
-                <p>Disclaimer: I do not own the copyrights to the contents of this web app, which belong to punchdrunk.
-                    This app was created to help you match the faces of the performers to their characters. Please enjoy
-                    using it!</p>
-            </div>
-        </div>
-    </div>
+    <table id="content">
+        <tbody>
+            <tr>
+                <td class="padding"></td>
+                <td id="mainContent">
+                    <img
+                        src="https://www.punchdrunk.com/content/themes/punchdrunk-internacional/build/images/pd-logo.svg" />
+                    <h1>The Burnt City - Daily Cast List</h1>
+
+                    <i id="spinner" class="fa fa-spinner fa-spin" style="font-size:48px;color:white"></i>
+                    <div class="disclaimer">
+                        <p>Disclaimer: I do not own the copyrights to the contents of this web app, which belong to
+                            punchdrunk.
+                            This app was created to help you match the faces of the performers to their characters.
+                            Please
+                            enjoy
+                            using it!</p>
+                    </div>
+
+                </td>
+                <td class="padding"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
 
     <!-- LOAD JS -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
