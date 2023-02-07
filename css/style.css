@@ -106,10 +106,7 @@ a.button1{
     padding: 1px 8px;
 }
 
-.btn_span::before {
-    content: "\A";
-    white-space: pre;
-}
+
 
 #btn_back {
     display:none;
