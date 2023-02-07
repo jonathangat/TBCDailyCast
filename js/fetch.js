@@ -138,12 +138,7 @@ $(document).ready(function() {
 
         };
 
-        // fix width for all tables
-        let w = window.innerWidth * 0.8;
-        $('.table_scroll').each(function () {
-            $(this).css('width',`${w}px`);
 
-        });
 
         // hide spinner
         $('#spinner').css("display","none");
