@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 
     // fetch data
-    let api_url = "https://script.google.com/macros/s/AKfycbzjqx_WHQJHgd4kThip2MbaH82uIDiJEt-8fJRnz-1c3pg0q_vidgs0seyrOU-xgSwm4Q/exec";
+    let api_url = "https://script.google.com/macros/s/AKfycbzGUnqdtZm5bZOvMlygWUSH0dD3YANaH4hq8Ol37K97xuI9M3CCsvtsG99Rp2JLGI4k/exec";
    $.getJSON(api_url, function(data) {
 
         let numOfDailyShows = data.data.length;
