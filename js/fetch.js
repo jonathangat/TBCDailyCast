@@ -134,6 +134,9 @@ $(document).ready(function() {
             // display
             $('#container_show').css('display', 'block');
 
+            // scroll to performance header
+            document.getElementById("show_date").scrollIntoView();
+
 
 
         };
