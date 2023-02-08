@@ -127,16 +127,13 @@ $(document).ready(function() {
 
             }
             row += '</tr>'
-
-
             $(`#table_show`).append(row);
 
             // display
-            $('#container_show').css('display', 'block');
+            $('#container_show').show('slow')
 
             // scroll to performance header
             document.getElementById("show_date").scrollIntoView();
-
 
 
         };
