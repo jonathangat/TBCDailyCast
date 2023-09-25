@@ -3,7 +3,7 @@ $(document).ready(function() {
 
 
     // fetch data
-    let api_url = "https://script.google.com/macros/s/AKfycbzGUnqdtZm5bZOvMlygWUSH0dD3YANaH4hq8Ol37K97xuI9M3CCsvtsG99Rp2JLGI4k/exec";
+    let api_url = "https://script.google.com/macros/s/AKfycbxuPWqTKTFHzLi6UcAKq8SRSyDX5fROOKK6gmf0WCGQwxb4ErvNBgEpMxePLyBfXhcJFg/exec";
    $.getJSON(api_url, function(data) {
 
         let numOfDailyShows = data.data.length;
@@ -116,7 +116,7 @@ $(document).ready(function() {
             $(`<div id="container_show" class="table_scroll"><table id="table_show"></table></div>`).insertBefore('.disclaimer');
 
             // populate headshots
-            let row = "<tr>";
+            let row = `<tr style="vertical-align: top;">`;
 
             for (let j = 0; j < performance.cast.length; j++) {
 
